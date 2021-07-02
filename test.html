@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .bigfather {
+            width: 100%;
+            height:860px;
+            background-image: url("前端考核/home_bg.jpg");
+            background-size: cover;
+        }
+        .fatherone {
+            display: inline-block;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky top 0;
+            height: 70px;
+            width: 100%;
+            background-color: black;
+            background: rgba(0, 0, 0, 0.5);          
+        }
+        img {
+            margin-right: 25px;
+            margin-left: 10px;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+        }
+        span {
+            color: white;
+            font-size: 20px;
+        }
+        .right{
+            vertical-align: middle;
+        }
+        .left1{
+            margin-right: 20px;
+            font-weight: 700;
+        }
+        .fathertwo {
+            display: flex;
+            flex-direction: center;
+            justify-content: center;
+            align-items: center;
+            margin-top: 300px;
+            height: 200px;
+            width: 100%; 
+            background-color: black;
+            background: rgba(0, 0, 0, 0.1);
+        }
+        .word{
+            font-size: 60px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bigfather">
+        <div class="fatherone">
+           <span> 
+               <span class="right"><img src="前端考核/kcsoft.jpg" alt="班徽"></span>
+                <span class="right">校软件创新实验室</span>
+            </span>
+            <span class="left">
+                <span class="left1">主页</span>
+                <span  class="left1">链接</span>
+                <span class="left1">关于</span>
+                <span class="left1">其他</span>
+            </span>
+           
+
+        </div>
+        <div class="fathertwo">
+            <div class="word">
+                西安科技大学校软件实验室
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
